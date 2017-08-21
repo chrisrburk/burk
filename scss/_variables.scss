@@ -1,0 +1,23 @@
+// Variables
+
+// Gray and Brand Colors for use across theme
+
+$theme-primary: #0f8b8d;
+$theme-primary-darker: #114b5f;
+$theme-secondary: #462255;
+$theme-accent: #6bbf59;
+$theme-danger: #e74c3c;
+
+$gray-base: #0a0908 !default;
+$gray-darker: lighten($gray-base, 13.5%) !default;
+$gray-dark: lighten($gray-base, 20%) !default;
+$gray: lighten($gray-base, 33.5%) !default;
+$gray-light: lighten($gray-base, 46.7%) !default;
+$gray-lighter: lighten($gray-base, 93.5%) !default;
+
+// Gradient
+$gradient-top: linear-gradient(to top, $theme-accent, $theme-primary);
+$gradient-left: linear-gradient(to left, $theme-accent, $theme-primary);
+$gradient-bottom: linear-gradient(to top, $theme-primary, $theme-accent);
+$gradient-right: linear-gradient(to left, $theme-primary, $theme-accent);
+$gradient-overlay: linear-gradient(to top, rgba(107, 191, 89, 0.4), rgba(17, 75, 95, 0.7));
