@@ -1,7 +1,6 @@
 // Styling for the services section
 .service-heading {
-  margin: 15px 0;
-  text-transform: none;
+  margin: 4rem 0 1rem 0!important;
 }
 
 .service-thumbnail {
@@ -9,17 +8,20 @@
   display: inline-block;
 }
 @media(min-width:768px) {
+  .service-heading {
+    margin: 4.2rem 0 1rem 0!important; 
+  }
 
-.vert-container{
-  position: relative
-}
-.vert-content{
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%)
-}
-.vert-cent{
-  display: table-cell;
-    vertical-align: middle
-}
+  .vert-container{
+    position: relative
+  }
+  .vert-content{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+  }
+  .vert-cent{
+    display: table-cell;
+      vertical-align: middle
+  }
 }

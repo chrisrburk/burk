@@ -197,14 +197,15 @@ header.masthead {
       text-transform: uppercase; } }
 
 .service-heading {
-  margin: 15px 0;
-  text-transform: none; }
+  margin: 4rem 0 1rem 0 !important; }
 
 .service-thumbnail {
   position: relative;
   display: inline-block; }
 
 @media (min-width: 768px) {
+  .service-heading {
+    margin: 4.2rem 0 1rem 0 !important; }
   .vert-container {
     position: relative; }
   .vert-content {
