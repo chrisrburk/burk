@@ -5,6 +5,8 @@
 *.gif
 *.psd
 *.zip
+*.mp4
+*.webm
 images/
 img/
 mocks
