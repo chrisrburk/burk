@@ -29,9 +29,9 @@
 
   <!-- VIDEO BG -->
   <div class="video-wrapper">
-    <video id="bg-video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster="img/video_bg.png">
-        <source src="vid/demo-reel.webm" type="video/webm">
-        <source src="vid/demo-reel.mp4" type="video/mp4">
+    <video id="bg-video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster="img/video_bg.jpg">
+        <source src="vid/bg-video.webm" type="video/webm">
+        <source src="vid/bg-video.mp4" type="video/mp4">
         Your browser does not support the video tag. Please upgrade your browser.
     </video>
   </div>
@@ -51,9 +51,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#videos">Videos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#features">Features</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -77,39 +74,81 @@
     </header>
 
     <!-- Services -->
-    <section class="bg-white" id="services">
-      <div class="container">
+    <section class="bg-light zero-pad" id="videos">
+      <div class="container-fluid">
         <div class="row justify-content-md-center">
           <div class="col-lg-8 text-center">
             <h2 class="section-heading">Drone Services</h2>
             <p class="text-muted">Whether you need aerial video or photography for documentation, marketing or inspections, our <strong>FAA Certified</strong> drone services are <strong>fully insured</strong> and constructed to meet all of our client’s needs from the ground up!</p>
           </div>
         </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <i class="fa fa-film fa-4x text-primary"></i>
-            <h4 class="service-heading">Videography</h4>
-            <p class="text-muted">Aerial video via drone offers a unique affordability and perspective for film and productions while maintaining the highest of quality standards. Our drones use state of the art cameras and stabilization that provides remarkably smooth and beautiful videography shot in stunning 4K resolution.</p>
+      </div>
+
+      <div class="container-fluid zero-pad">
+
+        <!-- Aerial -->
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <div class="service-thumbnail">
+              <img class="img-fluid" src="img/video-service.jpg" alt="Videography">
+            </div>
           </div>
-          <div class="col-md-4">
-            <i class="fa fa-camera-retro fa-4x text-primary"></i>
-            <h4 class="service-heading">Photography</h4>
-            <p class="text-muted">Drone photography can add a crisp perspective in addition to standard ground photos. Whether you need Residential or Commercial Real Estate, Construction Progression, Events, we produce stunning high-resolution images suitable for both print and digital media alike.</p>
-          </div>
-          <div class="col-md-4">
-            <i class="fa fa-eye fa-4x text-primary"></i>
-            <h4 class="service-heading">Inspection</h4>
-            <p class="text-muted">Using drones for roof inspections, can lower your operating costs by saving time, money and reducing the amount of injuries commonly associated with inspections. This allows you to reduce the inspection cycle, settle claims faster, get detailed imagery for underwriting and better analyze a property.</p>
+          <div class="col-md-6 vert-container">
+            <div class="vert-content p-5">
+              <h2 class="text-primary">Videography</h2>
+              <p class="text-muted">Aerial video via drone offers a unique affordability and perspective for film and productions while maintaining the highest of quality standards. Our drones use state of the art cameras and stabilization that provides remarkably smooth and beautiful videography shot in stunning 4K resolution.</p>
+              <button type="button" class="btn btn-primary video-trigger">
+                <i class="fa fa-play fa-1x text-white"></i> Contact Me
+              </button>
+            </div>
           </div>
         </div>
+
+        <!-- Video -->
+        <div class="row no-gutters">
+
+          <div class="col-md-6 vert-container">
+            <div class="vert-content p-5">
+              <h2 class="text-primary">Photography</h2>
+              <p class="text-muted">Drone photography can add a crisp perspective in addition to standard ground photos. Whether you need Residential or Commercial Real Estate, Construction Progression, Events, we produce stunning high-resolution images suitable for both print and digital media alike.</p>
+              <button type="button" class="btn btn-primary video-trigger">
+                <i class="fa fa-play fa-1x text-white"></i> Contact Me
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-thumbnail">
+              <img class="img-fluid" src="img/photography-service.jpg" alt="Photography">
+            </div>
+          </div>
+        </div>
+
+        <!-- Photography -->
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <div class="service-thumbnail">
+              <img class="img-fluid" src="img/inspection-service.jpg" alt="Inspection">
+            </div>
+          </div>
+          <div class="col-md-6 vert-container">
+            <div class="vert-content p-5">
+              <h2 class="text-primary">Inspection</h2>
+              <p class="text-muted">Using drones for roof inspections, can lower your operating costs by saving time, money and reducing the amount of injuries commonly associated with inspections. This allows you to reduce the inspection cycle, settle claims faster, get detailed imagery for underwriting and better analyze a property.</p>
+              <button type="button" class="btn btn-primary video-trigger">
+                <i class="fa fa-play fa-1x text-white"></i> Contact Me
+              </button>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </section>
 
-    <!-- Video Demos -->
-    <section class="bg-light zero-pad" id="videos">
+    <!-- <section class="bg-light zero-pad" id="videos">
       <div class="container-fluid zero-pad">
 
-        <!-- DEMO 1 -->
+        DEMO 1
         <div class="row no-gutters">
           <div class="col-md-6">
             <div class="video-thumbnail video-trigger" data-toggle="modal" href="#portfolioModal1" data-theVideo="https://www.youtube.com/embed/7qXmWQBheBc?rel=0&amp;controls=0&amp;showinfo=0">
@@ -128,10 +167,10 @@
         </div>
 
       </div>
-    </section>
+    </section> -->
 
     <!-- SECTION -->
-    <section id="features" class="p-5">
+    <!-- <section id="features" class="p-5">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-8 p-5">
@@ -193,10 +232,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- GET A QUOTE -->
-    <section id="quote" class="zero-pad bg-dark">
+    <!-- <section id="quote" class="zero-pad bg-dark">
       <div class="container p-5">
         <div class="row justify-content-md-center">
           <div class="col-sm-6 text-center">
@@ -206,7 +245,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contact -->
     <section id="contact" class="bg-dark">
@@ -263,18 +302,23 @@
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
+                <a href="https://www.instagram.com/burkaerial/">
+                  <i class="fa fa-instagram"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="http://fb.me/burkaerial">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
+                <a href="https://www.youtube.com/channel/UCuC4Kd0hYE_R9b-TgHN-TaQ">
+                  <i class="fa fa-youtube"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/burkaerial">
+                  <i class="fa fa-twitter"></i>
                 </a>
               </li>
             </ul>

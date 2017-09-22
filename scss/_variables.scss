@@ -20,4 +20,6 @@ $gradient-top: linear-gradient(to top, $theme-accent, $theme-primary);
 $gradient-left: linear-gradient(to left, $theme-accent, $theme-primary);
 $gradient-bottom: linear-gradient(to top, $theme-primary, $theme-accent);
 $gradient-right: linear-gradient(to left, $theme-primary, $theme-accent);
-$gradient-overlay: linear-gradient(to top, rgba(107, 191, 89, 0.4), rgba(17, 75, 95, 0.7));
+$gradient-overlay: linear-gradient(to top, rgba(107, 191, 89, 0.3), rgba(17, 75, 95, 0.6));
+
+$video-overlay:rgba(15, 139, 141, 0.4);

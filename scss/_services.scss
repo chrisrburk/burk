@@ -3,3 +3,23 @@
   margin: 15px 0;
   text-transform: none;
 }
+
+.service-thumbnail {
+  position: relative;
+  display: inline-block;
+}
+@media(min-width:768px) {
+
+.vert-container{
+  position: relative
+}
+.vert-content{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%)
+}
+.vert-cent{
+  display: table-cell;
+    vertical-align: middle
+}
+}

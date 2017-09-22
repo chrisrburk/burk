@@ -5,7 +5,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background: $gradient-overlay;
+  background: $video-overlay;
   @include background-cover;
   .intro-text {
     padding-top: 150px;
@@ -37,12 +37,12 @@ header.masthead {
     left: 50%;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    background: url('../img/video_bg.png') no-repeat;
-    background-size: cover;
+    background: url('../img/video_bg.jpg') no-repeat;
+    background-size: 100%;
     transition: 1s opacity;
     display: none;
     &::-webkit-media-controls {

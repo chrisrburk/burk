@@ -63,6 +63,9 @@ body {
 .zero-pad {
   padding: 0px; }
 
+.block {
+  display: block; }
+
 #mainNav {
   background-color: white; }
   #mainNav .navbar-toggler {
@@ -129,7 +132,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background: linear-gradient(to top, rgba(107, 191, 89, 0.4), rgba(17, 75, 95, 0.7));
+  background: rgba(15, 139, 141, 0.4);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -161,12 +164,12 @@ header.masthead {
     left: 50%;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    background: url("../img/video_bg.png") no-repeat;
-    background-size: cover;
+    background: url("../img/video_bg.jpg") no-repeat;
+    background-size: 100%;
     transition: 1s opacity;
     display: none; }
     .video-wrapper video::-webkit-media-controls {
@@ -196,6 +199,21 @@ header.masthead {
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
+
+.service-thumbnail {
+  position: relative;
+  display: inline-block; }
+
+@media (min-width: 768px) {
+  .vert-container {
+    position: relative; }
+  .vert-content {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%); }
+  .vert-cent {
+    display: table-cell;
+    vertical-align: middle; } }
 
 .timeline {
   position: relative;
