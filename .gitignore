@@ -9,5 +9,6 @@
 *.webm
 images/
 img/
+vid/
 mocks
 node_modules
