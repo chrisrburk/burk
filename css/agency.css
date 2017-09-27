@@ -135,7 +135,8 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .container {
-    background: rgba(15, 139, 141, 0.4); }
+    background: rgba(15, 139, 141, 0.4);
+    max-width: 100%; }
   header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 100px; }
@@ -153,7 +154,7 @@ header.masthead {
       font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   header.masthead {
     background: rgba(15, 139, 141, 0.4);
     -webkit-background-size: cover;
@@ -180,7 +181,8 @@ header.masthead {
         text-transform: uppercase; }
   .video-wrapper {
     position: relative;
-    overflow: hidden; }
+    overflow: hidden;
+    background: rgba(15, 139, 141, 0.4); }
     .video-wrapper video {
       opacity: 0.98;
       position: fixed;
