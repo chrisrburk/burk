@@ -203,7 +203,7 @@ header.masthead {
   position: relative;
   display: inline-block; }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .service-heading {
     margin: 4.2rem 0 1rem 0 !important; }
   .vert-container {
@@ -377,15 +377,6 @@ section#features {
     color: #0f8b8d; }
 
 @media (min-width: 768px) {
-  .vert-container {
-    position: relative; }
-  .vert-content {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%); }
-  .vert-cent {
-    display: table-cell;
-    vertical-align: middle; }
   .portfolio-modal .modal-dialog {
     max-width: none;
     height: 100%;
