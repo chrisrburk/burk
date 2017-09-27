@@ -56,6 +56,9 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     background: $video-overlay;
+    .container{
+      background: none;
+    }
     @include background-cover;
     .intro-text {
       padding-top: 200px;
